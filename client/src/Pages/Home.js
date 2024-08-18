@@ -1,7 +1,13 @@
 import React from "react";
+import "../Styles/Home.css";
 
 function Home() {
-  return <p>hello</p>;
+  return (
+    <div class="home">
+      <div class="home-display"></div>
+      <div class="home-actions"></div>
+    </div>
+  );
 }
 
 export default Home;

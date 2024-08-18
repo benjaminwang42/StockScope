@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.btn {
+  border: none;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: rgb(50, 48, 47);
+  font-weight: 500;
+  font-size: 1.125rem;
+  /* font-family: "PT Sans", sans-serif; */
+  border-radius: 0.5rem;
+}
+.btn:hover {
+  background-color: #f2f2f2;
+}

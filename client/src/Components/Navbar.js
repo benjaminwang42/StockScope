@@ -1,19 +1,27 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../Styles/Navbar.css";
+import SearchIcon from "@mui/icons-material/Search";
 
 function Navbar() {
   return (
     <div className="navbar">
-      <div className="leftSide">Logo here</div>
-      <div className="middle">
-        <h1>
-          StockScope: <span class="tagline">Tune in to Memories</span>
-        </h1>
+      <div className="menu">
+        <Link to="/" class="btn">
+          Logo Here
+        </Link>
+        <div class="menu-items">
+          <Link to="/" class="btn">
+            Home
+          </Link>
+          <Link to="/about" class="btn">
+            About
+          </Link>
+        </div>
       </div>
-      <div className="rightSide">
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
+      <div className="search-bar">
+        <SearchIcon></SearchIcon>
+        <input type="text" placeholder="Search name or symbol"></input>
       </div>
     </div>
   );
