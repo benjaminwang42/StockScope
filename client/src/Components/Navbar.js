@@ -5,8 +5,8 @@ import SearchIcon from "@mui/icons-material/Search";
 
 function Navbar() {
   return (
-    <div className="navbar">
-      <div className="menu">
+    <div className="row navbar">
+      <div className="col-8 col-sm-8 menu">
         <Link to="/" class="btn">
           Logo Here
         </Link>
@@ -19,7 +19,7 @@ function Navbar() {
           </Link>
         </div>
       </div>
-      <div className="search-bar">
+      <div className="col-4 col-sm-4 search-bar">
         <SearchIcon></SearchIcon>
         <input type="text" placeholder="Search name or symbol"></input>
       </div>

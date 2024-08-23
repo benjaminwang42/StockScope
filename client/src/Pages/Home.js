@@ -3,9 +3,9 @@ import "../Styles/Home.css";
 
 function Home() {
   return (
-    <div class="home">
-      <div class="home-display"></div>
-      <div class="home-actions"></div>
+    <div class="row home">
+      <div class="col-8 col-sm-8 home-display">test</div>
+      <div class="col-4 col-sm-4 home-actions">test</div>
     </div>
   );
 }
