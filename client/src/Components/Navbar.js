@@ -4,17 +4,19 @@ import "../Styles/Navbar.css";
 import SearchIcon from "@mui/icons-material/Search";
 
 function Navbar() {
+  console.log(1 + 2 + 3 + 4 + 5 + 6);
+
   return (
     <div className="row navbar">
       <div className="col-8 col-sm-8 menu">
-        <Link to="/" class="btn">
+        <Link to="/" className="btn">
           Logo Here
         </Link>
-        <div class="menu-items">
-          <Link to="/" class="btn">
+        <div className="menu-items">
+          <Link to="/" className="btn">
             Home
           </Link>
-          <Link to="/about" class="btn">
+          <Link to="/about" className="btn">
             About
           </Link>
         </div>
