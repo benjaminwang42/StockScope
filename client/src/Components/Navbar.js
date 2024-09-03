@@ -4,11 +4,9 @@ import "../Styles/Navbar.css";
 import SearchIcon from "@mui/icons-material/Search";
 
 function Navbar() {
-  console.log(1 + 2 + 3 + 4 + 5 + 6);
-
   return (
     <div className="row navbar">
-      <div className="col-8 col-sm-8 menu">
+      <div className="col-8 col-sm-8 px-0 menu">
         <Link to="/" className="btn">
           Logo Here
         </Link>
@@ -21,8 +19,8 @@ function Navbar() {
           </Link>
         </div>
       </div>
-      <div className="col-4 col-sm-4 search-bar">
-        <SearchIcon></SearchIcon>
+      <div className="col-4 col-sm-4 px-2 search-bar">
+        <SearchIcon className="mr-2"></SearchIcon>
         <input type="text" placeholder="Search name or symbol"></input>
       </div>
     </div>
